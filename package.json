@@ -1,5 +1,5 @@
 {
-  "homepage": "https://facutoff.github.io/React_ListaDeTareas/",
+  "homepage": "https://2dolist.com.ar",
   "name": "lista",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
