@@ -1,0 +1,51 @@
+.modal--overlay {
+  background-color: rgba(216, 216, 216, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #ffffff;
+  overflow-y: scroll;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 5rem;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 5%;
+  box-sizing: content-box;
+  position: relative;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal--close-btn {
+  background-image: url("../Assets/close.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  right: -10;
+  cursor: pointer;
+  z-index: 2;
+
+  background-color: rgba(1, 1, 1, 0);
+  box-shadow: none;
+}
+.modal--close-btn:hover {
+  background-color: rgba(1, 1, 1, 0);
+  box-shadow: none;
+}

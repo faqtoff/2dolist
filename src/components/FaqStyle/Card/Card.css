@@ -1,0 +1,21 @@
+.card-title {
+  font-family: var(--font-family);
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card {
+  background-color: #fff;
+  background-clip: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 3px 0;
+  padding: 5%;
+  position: relative;
+  text-align: center;
+  word-wrap: break-word;
+  border-radius: 1rem;
+}

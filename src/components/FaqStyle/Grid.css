@@ -1,0 +1,95 @@
+.row {
+  display: flex;
+  grid-auto-rows: minmax(10rem, auto);
+  grid-gap: 1rem;
+  columns: 12 60rem;
+}
+
+.col,
+.col-sm,
+.col-md,
+.col-lg,
+.col-xl,
+.col-xxl {
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+}
+
+.col-1 {
+  width: 1fr;
+}
+.col-2 {
+  width: 2fr;
+}
+.col-3 {
+  width: 3fr;
+}
+.col-4 {
+  width: 4fr;
+}
+.col-5 {
+  width: 5fr;
+}
+.col-6 {
+  width: 6fr;
+}
+.col-7 {
+  width: 7fr;
+}
+.col-8 {
+  width: 8fr;
+}
+.col-9 {
+  width: 9fr;
+}
+.col-10 {
+  width: 10fr;
+}
+.col-11 {
+  width: 11fr;
+}
+.col-12 {
+  width: 12fr;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .col-sm,
+  .col-md,
+  .col-lg,
+  .col-xl,
+  .col-xxl {
+    max-width: 540px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .col-md,
+  .col-lg,
+  .col-xl,
+  .col-xxl {
+    max-width: 720px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .col-lg,
+  .col-xl,
+  .col-xxl {
+    max-width: 960px;
+  }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-xl,
+  .col-xxl {
+    max-width: 1140px;
+  }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .col-xxl {
+    max-width: 1320px;
+  }
+}

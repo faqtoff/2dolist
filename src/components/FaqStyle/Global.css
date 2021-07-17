@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 62.5%; /*rem config*/
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px; /*rem config 1rem=10px*/
+}
+img {
+  max-width: 100%;
+}
+hr {
+  
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@import url("./Alert/Alert.css");
+@import url("./Button/Button.css");
+@import url("./Card/Card.css");
+@import url("./Forms/Forms.css");
+@import url("./Modal/Modal.css");
+@import url("./Progressbar/Progressbar.css");
+
+@import url("./Colors.css");
+@import url("./Conteiners.css");
+@import url("./Display.css");
+@import url("./Grid.css");
+@import url("./Size.css");
+@import url("./Text.css");
+@import url("./Margin.css");
+@import url('./Padding.css');
